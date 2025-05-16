@@ -1,0 +1,19 @@
+.feature-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.feature-card li {
+  color: #ccc;
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+}
+
+.feature-card li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #10B981;
+}

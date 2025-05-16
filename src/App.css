@@ -1,0 +1,187 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: #0D0C0C;
+  color: white;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+.container{
+  padding: 100px;
+}
+
+.inputBox{
+  width: 100%;
+  background-color: #141414;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.inputBox input{
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.signup_form{
+  width: 100%;
+}
+
+.btnBlue{
+  background-color: #00AEFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.btnBlue:hover{
+  background-color: #0086b3;
+}
+
+.login-left{
+  margin-top: 50px;
+}
+
+.links{
+  margin-right: 30px;
+}
+
+.logo{
+  margin-left: 30px;
+}
+
+.home{
+  margin: 40px;
+}
+
+.btn-Home{
+  margin-bottom: 40px;
+}
+
+.listcard{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.gridcard{
+  padding: 10px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.dropdownNavbar{
+  padding: 20px;
+}
+
+.drop-down-div2{
+  height: 75%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Editor_Navbar_div2 {
+  margin-right: 10px;
+}
+
+.Editor_Navbar_div2 .download{
+  padding: 5px;
+  background-color: black;
+}
+
+.left_firstDiv{
+  padding-left: 40px;
+}
+
+.tab{
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.lightmode{
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.lightmode .navbar{
+  background-color: #f4f4f4;
+
+}
+.lightmode .navbar .download{
+  background-color: #c2c2c2;
+
+}
+
+.lightmode .left_firstDiv{
+  background-color: #f7f7f7;
+}
+.lightmode .left_firstDiv button{
+  background-color: #c2c2c2;
+  color: #000;
+  margin-left: 5px;
+}
+
+.main_model{
+  padding: 20px;
+}
+.main_model div {
+  margin-top: 10px;
+}
+.main_model div button{
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.createModel{
+  padding: 10px;
+}
+
+.createModel .inputBox{
+  margin-top: 5px;
+}
+
+.dblbtn button{
+  margin-top: 10px;
+}
+
+
+.get-started-btn {
+  background-color: #4F46E5;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 9999px; /* Fully rounded */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-started-btn:hover {
+  background-color: #3b3fbc;
+}
